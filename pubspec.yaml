@@ -83,6 +83,11 @@ flutter:
     - assets\heavyrain.png
     - assets\ph_wind.png
     - assets\lightrain.png
+    - assets\Clouds.png
+    - assets\Rain.png
+    - assets\10n.png
+    - assets\04n.png
+
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

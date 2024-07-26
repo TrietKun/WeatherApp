@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:provider/provider.dart';
 import 'package:wheatherapp/models/weather.dart';
-import 'package:wheatherapp/page/home/wiget/home_weather_icon.dart';
-import 'package:wheatherapp/page/home/wiget/home_tempurature.dart';
-import 'package:wheatherapp/page/home/wiget/home_location.dart';
-import 'package:wheatherapp/page/home/wiget/home_detail_weather.dart';
+import 'package:wheatherapp/page/home/widget/home_weather_icon.dart';
+import 'package:wheatherapp/page/home/widget/home_tempurature.dart';
+import 'package:wheatherapp/page/home/widget/home_location.dart';
+import 'package:wheatherapp/page/home/widget/home_detail_weather.dart';
 import 'package:wheatherapp/provider/weather_provider.dart';
 
 class HomePage extends StatefulWidget {

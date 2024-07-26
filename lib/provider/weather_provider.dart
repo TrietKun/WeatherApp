@@ -8,4 +8,10 @@ class WeatherProvider extends ChangeNotifier {
     WeatherData result = await ApiRepository.callApiGetWeather();
     return result;
   }
+
+  Future<List<WeatherDetail>> getWeatherDetail() async {
+    // Fetch weather data from API
+    List<WeatherDetail> result = await ApiRepository.callApiGetWeatherDetail();
+    return result;
+  }
 }
